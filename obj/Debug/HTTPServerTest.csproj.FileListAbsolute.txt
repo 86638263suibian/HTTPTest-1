@@ -1,0 +1,7 @@
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\bin\Debug\HTTPServerTest.dll
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\bin\Debug\HTTPServerTest.pdb
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\bin\Debug\HTTPProject.exe
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\bin\Debug\HTTPProject.pdb
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\obj\Debug\HTTPServerTest.csprojResolveAssemblyReference.cache
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\obj\Debug\HTTPServerTest.dll
+C:\Users\Lukas\documents\visual studio 2013\Projects\HTTPProject\HTTPServerTest\obj\Debug\HTTPServerTest.pdb

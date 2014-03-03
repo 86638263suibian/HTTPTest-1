@@ -14,7 +14,7 @@ namespace SimpleHttpServerTestProject
         [TestMethod]
         public void TestGet()
         {
-            String line = GetFirstLine("GET /file.txt HTTP/1.0");
+            String line = GetFirstLine("GET /File.html HTTP/1.0");
             Assert.AreEqual("HTTP/1.0 200 OK", line);
 
             line = GetFirstLine("GET /fileDoesNotExist.txt HTTP/1.0");
@@ -25,29 +25,29 @@ namespace SimpleHttpServerTestProject
         [TestMethod]
         public void TestGetIllegalRequest()
         {
-            String line = GetFirstLine("GET /file.txt HTTP 1.0");
+            String line = GetFirstLine("GET /File.html HTTP 1.0");
             Assert.AreEqual("HTTP/1.0 400 Illegal request", line);
         }
 
         [TestMethod]
         public void TestGetIllegalMethodName()
         {
-            String line = GetFirstLine("PLET /file.txt HTTP/1.0");
+            String line = GetFirstLine("PLET /File.html HTTP/1.0");
             Assert.AreEqual("HTTP/1.0 400 Illegal request", line);
         }
 
         [TestMethod]
         public void TestGetIllegalProtocol()
         {
-            String line = GetFirstLine("GET /file.txt HTTP/1.2");
+            String line = GetFirstLine("GET /File.html HTTP/1.2");
             Assert.AreEqual("HTTP/1.0 400 Illegal protocol", line);
         }
 
         [TestMethod]
         public void TestMethodNotImplemented()
         {
-            String line = GetFirstLine("POST /file.txt HTTP/1.0");
-            Assert.AreEqual("HTTP/1.0 200 xxx", line);
+            String line = GetFirstLine("POST /File.html HTTP/1.0");
+            Assert.AreEqual("HTTP/1.0 200 OK", line);
         }
 
         /// <summary>
